@@ -1,4 +1,8 @@
+# Minimum Reproduction repo for NX using, Angular, NestJs, Angular Material
 
+This repo contains the code discussed in the [angular tutorial](https://nx.dev/angular/tutorial/01-create-application) in the inital commit. In addition it contains storybook for the ui library as well as Angular Material. It is meant to be a testing/reproduction repository for updates of third party libraries.
+
+Npm is used as package manager. To get started install all dependencies using `npm i`. To frontend and backend use `npx nx serve todos` and `npx nx serve api`, respectively. The frontend is serve at localhost:4200 and backend at localhost:3333.
 
 # Myorg
 
@@ -86,11 +90,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
-
-
-
-
-
 
 ## ☁ Nx Cloud
 
